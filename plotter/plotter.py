@@ -1,9 +1,3 @@
-import matplotlib.pyplot as plt
-import seaborn as sns
-import warnings
-warnings.filterwarnings('ignore')
-
-    
 def plot_hists(data,features_to_include):
     plt.figure(figsize=(20, 15))
     for i, feature in enumerate(features_to_include):
