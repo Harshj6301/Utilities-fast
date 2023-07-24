@@ -7,7 +7,7 @@ def plot_hists(data,features_to_include):
     plt.figure(figsize=(20, 15))
     for i, feature in enumerate(features_to_include):
         plt.subplot(3, 3, i + 1)
-        plt.title(data[feature])
+       # plt.title(data[feature])
         sns.histplot(data[feature])
         plt.tight_layout()
     plt.show()
